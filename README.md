@@ -8,7 +8,7 @@ This plugin combines a canvas tile layer wit XHR data tile loading.
 
 Usage:
 
-´´´ javascript
+~~~javascript
 
 // initialize
 // 1. parameter ais an url template to your data tile source
@@ -24,4 +24,4 @@ layer.drawTile = function(canvas, coords, responseText) {
   // draw commands...
 };
 
-´´´
+~~~
