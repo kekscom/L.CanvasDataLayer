@@ -8,8 +8,11 @@ This plugin combines a canvas tile layer wit XHR data tile loading.
 
 Usage:
 
+~~~html
+<!-- include the script after Leaflet.js -->
+<script src="L.CanvasDataLayer.js"></script>
+~~~
 ~~~javascript
-
 /**
  *initialization
  * @param {string} - url template to your data tile source
@@ -25,5 +28,4 @@ layer.drawTile = function(canvas, coords, responseText) {
   var geojson = JSON.parse(responseText);
   // draw commands...
 };
-
 ~~~
